@@ -86,7 +86,7 @@ new Vue({
 // }, err => {
 //   console.log(err);
 // })
-import {request} from "../network/request";
+import {request} from "./network/request";
 
 request({
   url: '/home/multidata'
